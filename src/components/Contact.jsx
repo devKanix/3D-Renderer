@@ -52,7 +52,7 @@ const handleChange = (e) => {
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden justify-center'>
       <motion.div
         variants={slideIn('left', "tween" , 0.2, 1)}
-        className=' mb-20 flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='bg-tertiary mb-20 flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={`${styles.heroSubText} text-center`}>Get in touch</p>
         <h3 className={`${styles.heroHeadText} text-center`}>Contact.</h3>
@@ -61,15 +61,15 @@ const handleChange = (e) => {
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
         >
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+          <label className='flex flex-col '>
+            <span className='text-white  font-medium mb-4'>Your Name</span>
             <input
               type="text"
               name="name"
               value ={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white  rounded-lg outline-none border-none font-medium'
+              className='bg-black py-4 px-6 placeholder:text-secondary text-white  rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -80,7 +80,7 @@ const handleChange = (e) => {
               value ={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white  rounded-lg outline-none border-none font-medium'
+              className='bg-black py-4 px-6 placeholder:text-secondary text-white  rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -91,12 +91,12 @@ const handleChange = (e) => {
               value ={form.message}
               onChange={handleChange}
               placeholder="Type your message here!"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white  rounded-lg outline-none border-none font-medium'
+              className='bg-black py-4 px-6 placeholder:text-secondary text-white  rounded-lg outline-none border-none font-medium'
             />
           </label>
           <button
             type='submit'
-            className='bg-tertiiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
+            className='bg-black py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
           >
             {loading ? 'Sending...' : 'Send'}
           </button>
