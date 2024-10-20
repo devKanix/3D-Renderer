@@ -2,8 +2,6 @@
 
 Welcome to **3D-Renderer**, a custom-built 3D rendering engine that brings your geometric visuals to life! Dive into the world of ray tracing, shading, and rendering techniques with this project.
 
-![3D-Renderer Demo](path/to/your/demo-image.gif)
-
 ## 🌟 Features
 - **Customizable Camera** 🎥: Easily adjust camera position and orientation.
 - **Ray Tracing** 🌈: Simulate realistic light interactions with objects, producing shadows, reflections, and more.
@@ -34,22 +32,7 @@ Welcome to **3D-Renderer**, a custom-built 3D rendering engine that brings your 
 3. **Start the development server**:
    ```bash
    npm run dev
-4. **Project Structure**:
-- 3D-Renderer/
-├── public/              # Static assets like images
-├── src/
-│   ├── components/      # Reusable components (Navbar, 3D objects, etc.)
-│   ├── hooks/           # Custom React hooks
-│   ├── styles/          # Tailwind CSS configuration
-│   ├── utils/           # Utility functions and helpers
-│   ├── App.js           # Main application file
-│   └── index.js         # Entry point for React
-├── .gitignore
-├── package.json         # Project metadata and dependencies
-└── README.md            # Project documentation
-5. **Demo**:
-Check out the live demo here: ![3d-Renderer](https://3drenderer.netlify.app)
-
+   
 ### Usage
 - **Adjust Camera Settings**: Modify the camera props in StarsCanvas for different perspectives.
 - **Customize Lights**: Change the light intensity and position for different effects.
