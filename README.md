@@ -28,3 +28,42 @@ Welcome to **3D-Renderer**, a custom-built 3D rendering engine that brings your 
    ```bash
    git clone https://github.com/devKanix/3D-Renderer.git
    cd 3D-Renderer
+2. **Install dependencies**:
+   ```bash
+   npm install
+3. **Start the development server**:
+   ```bash
+   npm run dev
+4. **Project Structure**:
+- 3D-Renderer/
+├── public/              # Static assets like images
+├── src/
+│   ├── components/      # Reusable components (Navbar, 3D objects, etc.)
+│   ├── hooks/           # Custom React hooks
+│   ├── styles/          # Tailwind CSS configuration
+│   ├── utils/           # Utility functions and helpers
+│   ├── App.js           # Main application file
+│   └── index.js         # Entry point for React
+├── .gitignore
+├── package.json         # Project metadata and dependencies
+└── README.md            # Project documentation
+5. **Demo**:
+Check out the live demo here: ![3d-Renderer](https://3drenderer.netlify.app)
+
+### Usage
+- **Adjust Camera Settings**: Modify the camera props in StarsCanvas for different perspectives.
+- **Customize Lights**: Change the light intensity and position for different effects.
+- **Modify 3D Models**: Add or modify objects in the scene using Three.js.
+
+## Concepts Covered
+- **Ray-Sphere Intersection**: Calculate if and where rays intersect with spheres.
+- **Phong Illumination Model**: Simulate ambient, diffuse, and specular reflections.
+- **Recursive Ray Tracing**: Trace rays for reflections and refractions.
+
+## Prerequisites for 3D Rendering
+**To get started with 3D rendering concepts, it’s helpful to have a basic understanding of**:
+- Vector mathematics (dot product, cross product).
+- Light reflection and refraction.
+- Ray tracing and shading models.
+
+### Thank You!
