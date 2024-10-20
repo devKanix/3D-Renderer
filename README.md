@@ -32,7 +32,8 @@ Welcome to **3D-Renderer**, a custom-built 3D rendering engine that brings your 
 3. **Start the development server**:
    ```bash
    npm run dev
-   
+
+
 ### Usage
 - **Adjust Camera Settings**: Modify the camera props in StarsCanvas for different perspectives.
 - **Customize Lights**: Change the light intensity and position for different effects.
