@@ -17,21 +17,6 @@ import {
     icon6,
   } from "../assets";
   
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "topics",
-      title: "Lessons",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
   const services = [
     {
       title: "Casting rays from the camera to the image plane",
