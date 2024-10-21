@@ -5,7 +5,6 @@ const SpinnerLoader = ({ text }) => {
 
   useEffect(() => {
     window.addEventListener('load', () => setIsLoading(false));
-
     return () => window.removeEventListener('load', () => setIsLoading(false));
   }, []);
 
@@ -16,7 +15,8 @@ const SpinnerLoader = ({ text }) => {
           <img
             src="/spinner.svg"
             alt="Loading spinner"
-            className="w-16 h-16"
+            className="w-16 h-16 "
+            style={{ fill: 'white' }}
           />
         </div>
       ) : (
